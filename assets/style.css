@@ -1,0 +1,112 @@
+/* Style global pour l'application */
+body {
+    background-color: #f7f9fc;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Titre principal */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+/* Sous-titres */
+h2, h3 {
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+/* Texte informatif */
+p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #555;
+}
+
+/* Boutons */
+.stButton>button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+}
+
+/* File uploader */
+.stFileUploader {
+    border: 2px dashed #3498db;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ecf3fd;
+    color: #3498db;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Tableau de données */
+.dataframe {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.dataframe th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.dataframe td {
+    text-align: left;
+    padding: 8px;
+}
+
+/* Téléchargement */
+.stDownloadButton>button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.stDownloadButton>button:hover {
+    background-color: #2980b9;
+}
+
+/* Graphiques */
+canvas {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Marges */
+.container {
+    padding: 20px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #999;
+}
